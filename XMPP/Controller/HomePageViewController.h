@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomePageViewController.h
 //  XMPP
 //
 //  Created by mac on 20/12/2018.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HomePageViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
