@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XMPPFramework.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HomePageViewController : UIViewController
+
+//属性传值，要把选中的那个好友JID传到会话列表中
+@property (nonatomic, strong) XMPPJID *friendJID;
 
 @end
 

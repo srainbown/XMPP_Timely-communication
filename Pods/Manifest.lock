@@ -1,0 +1,79 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - IQKeyboardManager (6.2.0)
+  - KissXML (5.2.3)
+  - libidn (1.35)
+  - Masonry (1.0.1)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.10)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - XMPPFramework (4.0.0):
+    - XMPPFramework/default (= 4.0.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - IQKeyboardManager
+  - Masonry (= 1.0.1)
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (= 3.1.10)
+  - SDWebImage (= 3.8.1)
+  - XMPPFramework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - IQKeyboardManager
+    - KissXML
+    - libidn
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - XMPPFramework
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+
+PODFILE CHECKSUM: d8c6d30f07c450ad121db44f2d3af7644ead4f98
+
+COCOAPODS: 1.5.3

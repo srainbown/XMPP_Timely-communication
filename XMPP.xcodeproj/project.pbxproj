@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		040ACF3321CB9F9100A0DF77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACF3221CB9F9100A0DF77 /* AppDelegate.m */; };
-		040ACF3621CB9F9100A0DF77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACF3521CB9F9100A0DF77 /* ViewController.m */; };
-		040ACF3921CB9F9100A0DF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040ACF3721CB9F9100A0DF77 /* Main.storyboard */; };
 		040ACF3B21CB9F9300A0DF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040ACF3A21CB9F9300A0DF77 /* Assets.xcassets */; };
 		040ACF3E21CB9F9300A0DF77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040ACF3C21CB9F9300A0DF77 /* LaunchScreen.storyboard */; };
 		040ACF4121CB9F9300A0DF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACF4021CB9F9300A0DF77 /* main.m */; };
 		040ACF4B21CB9F9300A0DF77 /* XMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACF4A21CB9F9300A0DF77 /* XMPPTests.m */; };
 		040ACF5621CB9F9300A0DF77 /* XMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACF5521CB9F9300A0DF77 /* XMPPUITests.m */; };
+		040ACF6821CB9FE300A0DF77 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ACF6721CB9FE300A0DF77 /* HomePageViewController.m */; };
+		041C064921D4D6FC0057F33A /* ZCXMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C064821D4D6FC0057F33A /* ZCXMessageModel.m */; };
+		041E08BA21D5B93E0087508C /* ZCXMessageRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E08B921D5B93E0087508C /* ZCXMessageRightTableViewCell.m */; };
+		041E08BD21D5B95A0087508C /* ZCXMessageLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E08BC21D5B95A0087508C /* ZCXMessageLeftTableViewCell.m */; };
+		041E08C021D5EC610087508C /* ZCXContentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 041E08BF21D5EC610087508C /* ZCXContentLabel.m */; };
+		042D92E221D3697500959192 /* ZCXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D92E121D3697500959192 /* ZCXLoginViewController.m */; };
+		042D92E521D3724F00959192 /* ZCXRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D92E421D3724F00959192 /* ZCXRegisterViewController.m */; };
+		042D92E821D376E100959192 /* ZCXXMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D92E721D376E100959192 /* ZCXXMPPManager.m */; };
+		042D92EB21D3895F00959192 /* ZCXTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D92EA21D3895F00959192 /* ZCXTool.m */; };
+		09364C437F3D4D4C483ACC2E /* Pods_XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D54018A87D924279E1C9BDD /* Pods_XMPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +46,6 @@
 		040ACF2E21CB9F9100A0DF77 /* XMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040ACF3121CB9F9100A0DF77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		040ACF3221CB9F9100A0DF77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		040ACF3421CB9F9100A0DF77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		040ACF3521CB9F9100A0DF77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		040ACF3821CB9F9100A0DF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040ACF3A21CB9F9300A0DF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040ACF3D21CB9F9300A0DF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040ACF3F21CB9F9300A0DF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,32 @@
 		040ACF5121CB9F9300A0DF77 /* XMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040ACF5521CB9F9300A0DF77 /* XMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPUITests.m; sourceTree = "<group>"; };
 		040ACF5721CB9F9300A0DF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040ACF6621CB9FE300A0DF77 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		040ACF6721CB9FE300A0DF77 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		041C064721D4D6FC0057F33A /* ZCXMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXMessageModel.h; sourceTree = "<group>"; };
+		041C064821D4D6FC0057F33A /* ZCXMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXMessageModel.m; sourceTree = "<group>"; };
+		041E08B821D5B93E0087508C /* ZCXMessageRightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXMessageRightTableViewCell.h; sourceTree = "<group>"; };
+		041E08B921D5B93E0087508C /* ZCXMessageRightTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXMessageRightTableViewCell.m; sourceTree = "<group>"; };
+		041E08BB21D5B95A0087508C /* ZCXMessageLeftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXMessageLeftTableViewCell.h; sourceTree = "<group>"; };
+		041E08BC21D5B95A0087508C /* ZCXMessageLeftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXMessageLeftTableViewCell.m; sourceTree = "<group>"; };
+		041E08BE21D5EC610087508C /* ZCXContentLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXContentLabel.h; sourceTree = "<group>"; };
+		041E08BF21D5EC610087508C /* ZCXContentLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXContentLabel.m; sourceTree = "<group>"; };
+		0428D80221D22FD000AADDFD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		042D92E021D3697500959192 /* ZCXLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXLoginViewController.h; sourceTree = "<group>"; };
+		042D92E121D3697500959192 /* ZCXLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXLoginViewController.m; sourceTree = "<group>"; };
+		042D92E321D3724F00959192 /* ZCXRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXRegisterViewController.h; sourceTree = "<group>"; };
+		042D92E421D3724F00959192 /* ZCXRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXRegisterViewController.m; sourceTree = "<group>"; };
+		042D92E621D376E100959192 /* ZCXXMPPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXXMPPManager.h; sourceTree = "<group>"; };
+		042D92E721D376E100959192 /* ZCXXMPPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXXMPPManager.m; sourceTree = "<group>"; };
+		042D92E921D3895F00959192 /* ZCXTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXTool.h; sourceTree = "<group>"; };
+		042D92EA21D3895F00959192 /* ZCXTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXTool.m; sourceTree = "<group>"; };
+		04AC7ACD21D317F600E462B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04AC7ACF21D3181B00E462B6 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		04AC7AD121D3182900E462B6 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		04AC7AD321D3183200E462B6 /* libidn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libidn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0882997D675653F1F635893C /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
+		20CEA8F181C16903F6F86B21 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
+		4D54018A87D924279E1C9BDD /* Pods_XMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09364C437F3D4D4C483ACC2E /* Pods_XMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,8 @@
 				040ACF4921CB9F9300A0DF77 /* XMPPTests */,
 				040ACF5421CB9F9300A0DF77 /* XMPPUITests */,
 				040ACF2F21CB9F9100A0DF77 /* Products */,
+				2C235996D72D0B4C55E85BCB /* Pods */,
+				7651FB51F17781455C3E7796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +135,12 @@
 		040ACF3021CB9F9100A0DF77 /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
+				0413312421D1D93F005D593D /* Other */,
+				040ACF6321CB9FB700A0DF77 /* Model */,
+				040ACF6421CB9FBD00A0DF77 /* View */,
+				040ACF6521CB9FC100A0DF77 /* Controller */,
 				040ACF3121CB9F9100A0DF77 /* AppDelegate.h */,
 				040ACF3221CB9F9100A0DF77 /* AppDelegate.m */,
-				040ACF3421CB9F9100A0DF77 /* ViewController.h */,
-				040ACF3521CB9F9100A0DF77 /* ViewController.m */,
-				040ACF3721CB9F9100A0DF77 /* Main.storyboard */,
 				040ACF3A21CB9F9300A0DF77 /* Assets.xcassets */,
 				040ACF3C21CB9F9300A0DF77 /* LaunchScreen.storyboard */,
 				040ACF3F21CB9F9300A0DF77 /* Info.plist */,
@@ -132,6 +167,74 @@
 			path = XMPPUITests;
 			sourceTree = "<group>";
 		};
+		040ACF6321CB9FB700A0DF77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041C064721D4D6FC0057F33A /* ZCXMessageModel.h */,
+				041C064821D4D6FC0057F33A /* ZCXMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040ACF6421CB9FBD00A0DF77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041E08BB21D5B95A0087508C /* ZCXMessageLeftTableViewCell.h */,
+				041E08BC21D5B95A0087508C /* ZCXMessageLeftTableViewCell.m */,
+				041E08B821D5B93E0087508C /* ZCXMessageRightTableViewCell.h */,
+				041E08B921D5B93E0087508C /* ZCXMessageRightTableViewCell.m */,
+				041E08BE21D5EC610087508C /* ZCXContentLabel.h */,
+				041E08BF21D5EC610087508C /* ZCXContentLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040ACF6521CB9FC100A0DF77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040ACF6621CB9FE300A0DF77 /* HomePageViewController.h */,
+				040ACF6721CB9FE300A0DF77 /* HomePageViewController.m */,
+				042D92E021D3697500959192 /* ZCXLoginViewController.h */,
+				042D92E121D3697500959192 /* ZCXLoginViewController.m */,
+				042D92E321D3724F00959192 /* ZCXRegisterViewController.h */,
+				042D92E421D3724F00959192 /* ZCXRegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0413312421D1D93F005D593D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0428D80221D22FD000AADDFD /* PrefixHeader.pch */,
+				042D92E621D376E100959192 /* ZCXXMPPManager.h */,
+				042D92E721D376E100959192 /* ZCXXMPPManager.m */,
+				042D92E921D3895F00959192 /* ZCXTool.h */,
+				042D92EA21D3895F00959192 /* ZCXTool.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2C235996D72D0B4C55E85BCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20CEA8F181C16903F6F86B21 /* Pods-XMPP.debug.xcconfig */,
+				0882997D675653F1F635893C /* Pods-XMPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7651FB51F17781455C3E7796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AC7AD321D3183200E462B6 /* libidn.framework */,
+				04AC7AD121D3182900E462B6 /* libresolv.tbd */,
+				04AC7ACF21D3181B00E462B6 /* libxml2.tbd */,
+				04AC7ACD21D317F600E462B6 /* CoreData.framework */,
+				4D54018A87D924279E1C9BDD /* Pods_XMPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040ACF5A21CB9F9300A0DF77 /* Build configuration list for PBXNativeTarget "XMPP" */;
 			buildPhases = (
+				A56C8FDFE9CBD83E67C8ED5F /* [CP] Check Pods Manifest.lock */,
 				040ACF2A21CB9F9100A0DF77 /* Sources */,
 				040ACF2B21CB9F9100A0DF77 /* Frameworks */,
 				040ACF2C21CB9F9100A0DF77 /* Resources */,
+				A8D66B4E16D04538AB6795E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +299,7 @@
 		040ACF2621CB9F9100A0DF77 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZCX;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Woodsoo;
 				TargetAttributes = {
@@ -237,7 +343,6 @@
 			files = (
 				040ACF3E21CB9F9300A0DF77 /* LaunchScreen.storyboard in Resources */,
 				040ACF3B21CB9F9300A0DF77 /* Assets.xcassets in Resources */,
-				040ACF3921CB9F9100A0DF77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +362,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A56C8FDFE9CBD83E67C8ED5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D66B4E16D04538AB6795E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040ACF2A21CB9F9100A0DF77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040ACF3621CB9F9100A0DF77 /* ViewController.m in Sources */,
+				041E08BD21D5B95A0087508C /* ZCXMessageLeftTableViewCell.m in Sources */,
+				042D92E521D3724F00959192 /* ZCXRegisterViewController.m in Sources */,
+				042D92E221D3697500959192 /* ZCXLoginViewController.m in Sources */,
 				040ACF4121CB9F9300A0DF77 /* main.m in Sources */,
 				040ACF3321CB9F9100A0DF77 /* AppDelegate.m in Sources */,
+				041E08C021D5EC610087508C /* ZCXContentLabel.m in Sources */,
+				042D92E821D376E100959192 /* ZCXXMPPManager.m in Sources */,
+				040ACF6821CB9FE300A0DF77 /* HomePageViewController.m in Sources */,
+				041E08BA21D5B93E0087508C /* ZCXMessageRightTableViewCell.m in Sources */,
+				042D92EB21D3895F00959192 /* ZCXTool.m in Sources */,
+				041C064921D4D6FC0057F33A /* ZCXMessageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +480,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		040ACF3721CB9F9100A0DF77 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				040ACF3821CB9F9100A0DF77 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		040ACF3C21CB9F9300A0DF77 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,35 +605,47 @@
 		};
 		040ACF5B21CB9F9300A0DF77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CEA8F181C16903F6F86B21 /* Pods-XMPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/XMPP/XMPP/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = XMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.woodsoo.www.XMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		040ACF5C21CB9F9300A0DF77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0882997D675653F1F635893C /* Pods-XMPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JK3D2L5JK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/XMPP/XMPP/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = XMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.woodsoo.www.XMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

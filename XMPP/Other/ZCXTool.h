@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZCXTool : NSObject
 
++(void)showErrorMBProgressHUDtoView:(UIView *)view andText:(NSString *)text andDelay:(NSInteger)delay;
+    
 @end
 
 NS_ASSUME_NONNULL_END

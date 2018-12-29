@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZCXMessageModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ZCXMessageLeftTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) ZCXMessageModel *model;
 
 @end
 
